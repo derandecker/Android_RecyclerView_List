@@ -1,4 +1,4 @@
-package com.derandecker.galleryapp
+package com.derandecker.galleryapp.ui
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -6,7 +6,9 @@ import android.support.v4.content.ContextCompat
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
-import kotlinx.android.synthetic.main.activity_main.*
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
+import com.derandecker.galleryapp.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,7 +19,9 @@ class MainActivity : AppCompatActivity() {
 
         ivList.add(0, ImageView(this))
         ivList[0].setImageDrawable(
-            ContextCompat.getDrawable(this, R.drawable.abstract_abstract_expressionism_art_2505693)
+            ContextCompat.getDrawable(this,
+                R.drawable.abstract_abstract_expressionism_art_2505693
+            )
         )
 
         ivList.add(1, ImageView(this))
@@ -27,7 +31,9 @@ class MainActivity : AppCompatActivity() {
 
         ivList.add(2, ImageView(this))
         ivList[2].setImageDrawable(
-            ContextCompat.getDrawable(this, R.drawable.aerial_photography_aerial_shot_aerial_view_2583847)
+            ContextCompat.getDrawable(this,
+                R.drawable.aerial_photography_aerial_shot_aerial_view_2583847
+            )
         )
 
         ivList.add(3, ImageView(this))
@@ -37,12 +43,16 @@ class MainActivity : AppCompatActivity() {
 
         ivList.add(4, ImageView(this))
         ivList[4].setImageDrawable(
-            ContextCompat.getDrawable(this, R.drawable.architectural_design_architecture_bridge_2540653)
+            ContextCompat.getDrawable(this,
+                R.drawable.architectural_design_architecture_bridge_2540653
+            )
         )
 
         ivList.add(5, ImageView(this))
         ivList[5].setImageDrawable(
-            ContextCompat.getDrawable(this, R.drawable.beautiful_breathtaking_canada_day_2526105)
+            ContextCompat.getDrawable(this,
+                R.drawable.beautiful_breathtaking_canada_day_2526105
+            )
         )
 
         ivList.add(6, ImageView(this))
